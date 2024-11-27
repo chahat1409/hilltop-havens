@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hill Stations in India</title>
+  <link rel="stylesheet" href="hill.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>Explore Hill Stations in India</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#hillstations">Hill Stations</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="home">
+    <div class="intro">
+      <h2>Welcome to the Scenic Hill Stations of India</h2>
+      <p>Experience the serenity and beauty of India's hill stations, where nature meets tranquility.</p>
+    </div>
+  </section>
+
+        <section id="login">
+            <div class="login-container">
+              <h2>Login</h2>
+              <input type="text" id="username" placeholder="Username" required>
+              <input type="text" id="email" placeholder="Email" required>
+              <input type="password" id="password" placeholder="Password" required>
+              <button id="login-button">Login</button>
+              
+            </div>
+          </section>
+        
+
+  
+  <section id="hillstations">
+    <h2>Popular Hill Stations in India</h2>
+
+    <div class="hill-station">
+      <div class="hill">
+        <img src="shimla.jpg" alt="Shimla">
+        <h3><b>Shimla</b></h3>
+        <p><b>Known for its colonial architecture and pleasant weather, Shimla is a popular hill station in Himachal Pradesh.</b></p>
+        <h4>Rating:
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        </h4>
+        <h4><b>Reviews:</b></h4>
+        <ul>
+            <li><b>"Beautiful place with cool weather!" -Freeha</b></li>
+            <li><b>"Loved the mountain views!" -Raj</b></li>
+        </ul>
+        <button class="learn" onclick="goToGoogleMaps('Shimla')">Learn More</button>
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="darjeeling.jpg" alt="Darjeeling">
+        <h3><b>Darjeeling</b></h3>
+        <p><b>Famous for its tea gardens and the majestic Kanchenjunga, Darjeeling offers stunning views and cool weather.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Incredible tea gardens!" -Hamza</b></li>
+                <li><b>"Loved the mountain views!" -Sehar</b></li>
+            </ul>
+    
+            <button class="learn" onclick="goToGoogleMaps('Darjeeling')">Learn More</button>
+
+      </div>
+      
+
+
+    
+      <div class="hill">
+        <img src="ooty.webp" alt="Ooty">
+        <h3><b>Ooty</b></h3>
+        <p><b>Known as the 'Queen of Hill Stations', Ooty is famous for its lakes, botanical gardens, and pleasant climate.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"So peaceful and beautiful!" -Aina</b></li>
+                <li><b>"Lovely weather,perfect for a getaway!" -Amaan</b></li>
+            </ul>
+            <button class="learn" onclick="goToGoogleMaps('Ooty')">Learn More</button>
+      </div>
+      <div class="hill">
+        <img src="manali.webp" alt="Manali">
+        <h3><b>Manali</b></h3>
+        <p><b>Located in Himachal Pradesh, Manali is famous for its snowy landscapes, adventure activities, and pleasant weather.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Great for adventure lovers!" -Shanaya</b></li>
+                <li><b>"Scenic and refreshing." -Mehak</b></li>
+            </ul>
+    
+
+            <button class="learn" onclick="goToGoogleMaps('Manali')">Learn More</button>
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="munnar.jpg" alt="Munnar">
+        <h3><b>Munnar</b></h3>
+        <p><b>Located in Kerala, Munnar is known for its sprawling tea plantations, scenic landscapes, and cool climate.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Amazing tea plantations!!" -Rehan</b></li>
+                <li><b>"Beautiful landscapes and calm atmosphere." -Neha</b></li>
+            </ul>
+    
+
+            <button class="learn" onclick="goToGoogleMaps('Kerala')">Learn More</button>
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="leh.jpg" alt="Leh">
+        <h3><b>Leh</b></h3>
+        <p><b>Leh, in Ladakh, is famous for its barren yet beautiful landscapes, monasteries, and adventure tourism.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Breathtaking views!" -Vishal</b></li>
+                <li><b>"Perfect for adventure and tranquility" -Sara</b></li>
+            </ul>
+            <button class="learn" onclick="goToGoogleMaps('Leh')">Learn More</button>
+
+    
+
+        
+      </div>
+
+      
+      <div class="hill">
+        <img src="Mussoorie.jpg" alt="Mussoorie">
+        <h3><b>Mussoorie</b></h3>
+        <p><b>Mussoorie, known as the 'Queen of the Hills', offers stunning views of the Himalayas and a peaceful environment.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Amazing place to relax!" -Samar</b></li>
+                <li><b>"Lovely the scenic beauty" -Aina</b></li>
+            </ul>
+    
+
+            <button class="learn" onclick="goToGoogleMaps('Mussoorie')">Learn More</button>
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="nainital.avif" alt="Nainital">
+        <h3><b>Nainital</b></h3>
+        <p><b>Famous for its picturesque Naini Lake, Nainital offers a serene atmosphere and pleasant weather in Uttarakhand.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Great for family trips!" -Sarim</b></li>
+                <li><b>"Serene and beautiful." -Tara</b></li>
+            </ul>
+
+            <button class="learn" onclick="goToGoogleMaps('Nainital')">Learn More</button>
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="rishikesh.jpg" alt="Rishikesh">
+        <h3><b>Rishikesh</b></h3>
+        <p><b>Located in Uttarakhand, Rishikesh is a spiritual and adventure hub known for yoga, rafting, and the Ganges river.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Perfect for adventure and spirituality" -Siya</b></li>
+                <li><b>"Peaceful and exhilarating" -Ram</b></li>
+            </ul>
+            <button class="learn" onclick="goToGoogleMaps('Rishikesh')">Learn More</button>
+
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="coorg.jpg" alt="Coorg">
+        <h3><b>Coorg</b></h3>
+        <p><b>Known for its coffee plantations, Coorg in Karnataka is a popular hill station known for its cool weather and green landscapes.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Lush forests, waterfalls, and coffee plantations - Coorg has it all!" -Zubia</b></li>
+                <li><b>"Coorg's Breathtaking scenery and serene atmosphere make it a perfect getaway" -Asfi</b></li>
+            </ul>
+
+            <button class="learn" onclick="goToGoogleMaps('Coorg')">Learn More</button>
+
+      </div>
+
+      
+      <div class="hill">
+        <img src="kodaikanal.jpg" alt="Kodaikanal">
+        <h3><b>Kodaikanal</b></h3>
+        <p><b>Kodaikanal in Tamil Nadu is known for its misty weather, picturesque lakes, and lush greenery.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Breathtaking views of the valley and waterfalls." -Naina</b></li>
+                <li><b>"Offbeat destination with stunning views and lush forests" -Shivam</b></li>
+            </ul>
+
+            <button class="learn" onclick="goToGoogleMaps('Kodaikanal')">Learn More</button>
+
+      </div>
+      <div class="hill">
+        <img src="gulmarg.webp" alt="Gulmarg">
+        <h3><b>Gulmarg</b></h3>
+        <p><b>Known as the "Meadow of Flowers", Gulmarg ia a stunning hill station located in Jammu and Kashmir, famous for its lush green meadows, snow-capped mountains and vibrant landscapes.</b></p>
+        <h4>Rating:
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            </h4>
+            <h4><b>Reviews:</b></h4>
+            <ul>
+                <li><b>"Gulmarg's meadow of flowers is a colorful heaven on earth!" -Meera</b></li>
+                <li><b>"Gulmarg's sunrise and sunset views are truely Breathtaking" -Noor</b></li>
+                
+            </ul>
+            <button class="learn" onclick="goToGoogleMaps('Gulmarg')">Learn More</button>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="booking" class="booking-section">
+    <div class="container">
+        <h1><b>Book Your Stay in Hill Stations</b></h1>
+        <p><b>Reserve your accommodation at one of the best hill stations in India. Fill out the form below to get started.</b></p>
+        <div class="booking-form-container">
+          <form class="booking-form">
+      
+              <label for="hillStation">Select Hill Station</label>
+              <select id="hillStation" required>
+                  <option value="">Select</option>
+                  <option value="manali">Manali</option>
+                  <option value="shimla">Shimla</option>
+                  <option value="nainital">Nainital</option>
+                  <option value="darjeeling">Darjeeling</option>
+                  <option value="leh">Leh</option>
+                  <option value="rishikesh">Rishikesh</option>
+                  <option value="kodaikanal">Kodaikanal</option>
+                  <option value="gulmarg">Gulmarg</option>
+                  <option value="ooty">Ooty</option>
+                  <option value="munnar">Munnar</option>
+                  <option value="mussoorie">Mussoorie</option>
+              </select>
+      
+              <label for="checkInDate">Check-in Date</label>
+              <input type="date" id="checkInDate" required>
+      
+              <label for="checkOutDate">Check-out Date</label>
+              <input type="date" id="checkOutDate" required>
+      
+              <label for="accommodation">Accommodation Type</label>
+              <select id="accommodation" required>
+                  <option value="">Select</option>
+                  <option value="hotel">Hotel</option>
+                  <option value="resort">Resort</option>
+                  <option value="guesthouse">Guesthouse</option>
+              </select>
+      
+              <label for="guests">Guests</label>
+              <input type="number" id="guests" min="1" required>
+      
+              <button type="submit">Book Now</button>
+          </form>
+      </div>
+      </div>
+      </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Enter your message"></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2024 Hill Stations of India. All Rights Reserved.</p>
+  </footer>
+
+    <script>
+    function goToGoogleMaps(hillStationName) {
+      const locations = {
+          'Shimla': 'Shimla, Himachal Pradesh, India',
+          'Darjeeling': 'Darjeeling, West Bengal, India',
+          'Ooty': 'Ooty, Tamil Nadu, India',
+          'Manali': 'Manali, Himachal Pradesh, India',
+          'Munnar': 'Munnar, Kerala, India',
+          'Leh': 'Leh, Ladakh, India',
+          'Mussoorie': 'Mussoorie, Uttarakhand, India',
+          'Nainital' : 'Nainital, Uttarakhand, India',
+          'Rishikesh' : 'Rishikesh, Uttarakhand, India',
+          'Coorg' : 'Coorg, Karnataka, India',
+          'Kodaikanal' : 'Kodaikanal, Tamil Nadu, India',
+          'Gulmarg' : 'Gulmarg, Jammu and Kashmir, India',
+      
+      };
+      const location = locations[hillStationName];
+      if (location) {
+          const url = "https://www.google.com/maps?q=" + encodeURIComponent(location);
+          window.open(url, "_blank");
+      } else {
+          alert('Location not found!');
+      }
+    }
+    
+    
+      
+document.getElementById("login-button").addEventListener("click", function () {
+  const username = document.getElementById("username").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  if (username && email && password) {
+    alert(`Welcome, ${username}! You have successfully logged in.`);
+    document.getElementById("username").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
+  } else {
+    alert("Please fill out all fields before logging in.");
+  }
+});
+document.querySelector('.booking-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    
+    const hillStation = document.getElementById('hillStation').value;
+    const checkInDate = document.getElementById('checkInDate').value;
+    const checkOutDate = document.getElementById('checkOutDate').value;
+    const accommodation = document.getElementById('accommodation').value;
+    const guests = document.getElementById('guests').value;
+
+    
+    if (!hillStation || !checkInDate || !checkOutDate || !accommodation || !guests) {
+        alert("Please fill in all fields.");
+        return; 
+    }
+    const bookingUrl = `https://www.makemytrip.com/hotels/${hillStation.toLowerCase()}_hotels.html?checkin_date=${checkInDate}&checkout_date=
+    ${checkOutDate}&guests=${guests}&accommodation_type=${accommodation.toLowerCase()}`;
+    window.open(bookingUrl, '_blank');
+});
+
+const contactForm = document.querySelector("#contact form");
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault(); 
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  if (name && email && message) {
+    alert(`Thank you, ${name}! Your message has been sent successfully.`);
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+  } else {
+    alert("Please fill out all fields before sending your message.");
+  }
+});
+    
+    </script>
+  
+</body>
+</html>
